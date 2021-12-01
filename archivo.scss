@@ -1,0 +1,61 @@
+/* importamos*/
+
+@import "variables";
+
+// footer //
+footer {
+  background-color: rgb(17, 16, 16);
+  i {
+    color: rgb(253, 136, 200);
+    a {
+      color: rgb(253, 136, 200);
+    }
+    i a:hover {
+      color: white;
+    }
+  }
+  p {
+    color: white;
+  }
+}
+// formulario //
+.formularioUno {
+  color: rgb(211, 113, 167);
+  .formularioUno__input {
+    border-color: rgb(211, 113, 167);
+    border-width: thin;
+    border-style: ridge;
+  }
+}
+// propaganda //
+.propaganda {
+  background-color: rgb(211, 113, 167);
+  color: white;
+  text-transform: uppercase;
+  .propaganda__titulo {
+    color: white;
+  }
+  .propaganda__titulo--mayus {
+    text-transform: capitalize;
+  }
+}
+
+h1 {
+  font-family: "Fredoka One", cursive;
+  color: $color-cian;
+}
+h2 {
+  font-family: "Fredoka One", cursive;
+  font-weight: lighter;
+}
+p {
+  font-family: "Maven Pro", sans-serif;
+}
+.borderCian{
+  border-color:$color-cian !important; 
+  border-width:thick;
+  border-style: solid;
+}
+.boxfooter{
+  width: $widthfooter*2;
+}
